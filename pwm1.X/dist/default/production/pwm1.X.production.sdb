@@ -1,0 +1,124 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"20 D:\Codigos\PIC\pwm1.X\pwm1.c
+[v _configura configura `(v  1 e 1 0 ]
+"34
+[v _convierte convierte `(v  1 e 1 0 ]
+"54
+[v _main main `(v  1 e 1 0 ]
+"232 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f45k50.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3931 ]
+"327
+[v _ANSELC ANSELC `VEuc  1 e 1 @3933 ]
+"4626
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"5070
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"9286
+[v _T2CON T2CON `VEuc  1 e 1 @4026 ]
+"9357
+[v _PR2 PR2 `VEuc  1 e 1 @4027 ]
+"9397
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+[s S97 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"9429
+[s S101 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[s S110 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP1Y 1 0 :1:4 
+`uc 1 CCP1X 1 0 :1:5 
+]
+[u S114 . 1 `S97 1 . 1 0 `S101 1 . 1 0 `S110 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES114  1 e 1 @4029 ]
+"9596
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"9636
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"9707
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"9775
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S34 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"9815
+[s S37 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S41 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S44 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S47 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S50 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S53 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[s S56 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S59 . 1 `S34 1 . 1 0 `S37 1 . 1 0 `S41 1 . 1 0 `S44 1 . 1 0 `S47 1 . 1 0 `S50 1 . 1 0 `S53 1 . 1 0 `S56 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES59  1 e 1 @4034 ]
+"9870
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"9877
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"54 D:\Codigos\PIC\pwm1.X\pwm1.c
+[v _main main `(v  1 e 1 0 ]
+{
+"64
+} 0
+"34
+[v _convierte convierte `(v  1 e 1 0 ]
+{
+"51
+} 0
+"20
+[v _configura configura `(v  1 e 1 0 ]
+{
+"33
+} 0
